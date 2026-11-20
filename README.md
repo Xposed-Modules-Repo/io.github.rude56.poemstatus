@@ -9,7 +9,7 @@
 - **完全离线**：不申请 INTERNET 权限，没有任何网络请求
 - **静态作用域**：只注入 `com.android.systemui`，不需要也不能勾选其他应用
 - **省电**：只在滚动时申请帧回调，静止时零消耗；帧率上限 30fps，位移不足 1px 不重绘
-- **双皮肤**：Material 3 与 Miuix（HyperOS 观感）可选，跟随系统深浅色与动态取色
+- **双皮肤**：Material 3 与 Miuix 可选，跟随系统深浅色与动态取色
 
 ## 功能
 
@@ -35,11 +35,6 @@
 ## 系统要求
 
 Android 13（API 33）及以上，libxposed API 102。
-
-## 链接
-
-- 源码：https://github.com/Rude56/statusbar-poem
-- 问题反馈：https://github.com/Rude56/statusbar-poem/issues
 
 ## 许可
 
